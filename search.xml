@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>linux常用命令</title>
+      <link href="/2020/05/04/linux%E5%9F%BA%E7%A1%80/"/>
+      <url>/2020/05/04/linux%E5%9F%BA%E7%A1%80/</url>
+      
+        <content type="html"><![CDATA[<p>当人们开始学习Linux时，命令那么多，难免会忘记。本文章主要用于让人了解或者回顾Linux的一些常用命令。</p><a id="more"></a><p>该文章没有对Linux常用命令进行详细解释。希望当年看完本文能对Linux常用命令进行了解。进而逐渐去查询每个命令有什么参数和使用方法。</p><h1 id="linux基础"><a href="#linux基础" class="headerlink" title="linux基础"></a>linux基础</h1><h2 id="查看目录内容"><a href="#查看目录内容" class="headerlink" title="查看目录内容"></a>查看目录内容</h2><p>​    ls</p><h2 id="切换目录"><a href="#切换目录" class="headerlink" title="切换目录"></a>切换目录</h2><p>​    cd</p><h2 id="创建和删除命令"><a href="#创建和删除命令" class="headerlink" title="创建和删除命令"></a>创建和删除命令</h2><p>​    touch<br>​    rm<br>​    mkdir</p><h2 id="拷贝和移动命令"><a href="#拷贝和移动命令" class="headerlink" title="拷贝和移动命令"></a>拷贝和移动命令</h2><p>​    cp<br>​    mv</p><h2 id="查看文件内容"><a href="#查看文件内容" class="headerlink" title="查看文件内容"></a>查看文件内容</h2><p>​    cat<br>​    more<br>​    grep</p><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>​    echo<br>​    重定向&gt;和&gt;&gt;<br>​    管道|</p><h2 id="通配符"><a href="#通配符" class="headerlink" title="通配符"></a>通配符</h2><p>​    *<br>​    ?<br>​    []<br>​    [abc]<br>​    [a-f]</p><h1 id="远程管理常用命令"><a href="#远程管理常用命令" class="headerlink" title="远程管理常用命令"></a>远程管理常用命令</h1><h2 id="关机-重启"><a href="#关机-重启" class="headerlink" title="关机/重启"></a>关机/重启</h2><p>shutdown<br>reboot</p><h2 id="查看或配置网卡信息"><a href="#查看或配置网卡信息" class="headerlink" title="查看或配置网卡信息"></a>查看或配置网卡信息</h2><p>ifconfig<br>ping</p><h2 id="远程登陆和复制文件"><a href="#远程登陆和复制文件" class="headerlink" title="远程登陆和复制文件"></a>远程登陆和复制文件</h2><p>ssh<br>scp</p><h1 id="用户权限相关命令"><a href="#用户权限相关命令" class="headerlink" title="用户权限相关命令"></a>用户权限相关命令</h1><h2 id="组管理终端命令"><a href="#组管理终端命令" class="headerlink" title="组管理终端命令"></a>组管理终端命令</h2><p>groupadd 组名<br>groupdel 组名<br>cat /etc/group<br>chgrp 组名 文件名</p><h2 id="用户管理终端命令"><a href="#用户管理终端命令" class="headerlink" title="用户管理终端命令"></a>用户管理终端命令</h2><p>useradd -m -g 组 新建用户名<br>passwd 用户名<br>usermod</p><h2 id="查看用户信息"><a href="#查看用户信息" class="headerlink" title="查看用户信息"></a>查看用户信息</h2><p>id [用户名]<br>who<br>whoami<br>which 命令</p><h2 id="切换用户"><a href="#切换用户" class="headerlink" title="切换用户"></a>切换用户</h2><p>su - 用户名<br>exit</p><h2 id="修改文件权限"><a href="#修改文件权限" class="headerlink" title="修改文件权限"></a>修改文件权限</h2><p>chown<br>chgrp<br>chmod</p><h1 id="系统信息相关命令"><a href="#系统信息相关命令" class="headerlink" title="系统信息相关命令"></a>系统信息相关命令</h1><h2 id="时间和日期"><a href="#时间和日期" class="headerlink" title="时间和日期"></a>时间和日期</h2><p>date<br>cal</p><h2 id="磁盘和目录空间"><a href="#磁盘和目录空间" class="headerlink" title="磁盘和目录空间"></a>磁盘和目录空间</h2><p>df<br>du</p><h2 id="进程信息"><a href="#进程信息" class="headerlink" title="进程信息"></a>进程信息</h2><p>ps<br>top<br>kill</p><h1 id="其他命令"><a href="#其他命令" class="headerlink" title="其他命令"></a>其他命令</h1><h2 id="查看文件"><a href="#查看文件" class="headerlink" title="查看文件"></a>查看文件</h2><p>find</p><h2 id="软链接"><a href="#软链接" class="headerlink" title="软链接"></a>软链接</h2><p>ln</p><h2 id="打包和压缩"><a href="#打包和压缩" class="headerlink" title="打包和压缩"></a>打包和压缩</h2><p>tar -cvf</p><h2 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h2><p>apt-get</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>我的第一篇博客文章</title>
       <link href="/2020/04/23/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/"/>
       <url>/2020/04/23/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</url>
