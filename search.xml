@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>关于ubuntu中xfce出现中文乱码的解决办法</title>
+      <link href="/2020/05/20/%E5%85%B3%E4%BA%8Eubuntu%E4%B8%ADxfce%E5%87%BA%E7%8E%B0%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+      <url>/2020/05/20/%E5%85%B3%E4%BA%8Eubuntu%E4%B8%ADxfce%E5%87%BA%E7%8E%B0%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h2 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h2><p>今天，在给Ubuntu装xfce时，发现装好的xfce有界面，但是中文却是乱码,英文却能正常显示。</p><a id="more"></a><p><img src="http://tuch.ldopp.com/blog/20200520/211124127.jpg" alt="mark"></p><h2 id="解决办法："><a href="#解决办法：" class="headerlink" title="解决办法："></a>解决办法：</h2><p>经过查阅资料，发现原因在于没有安装中文字体库，解决办法如下：<br>在命令行中键入<br><code>sudo apt-get install ttf-wqy-zenhei</code>安装字体库<br>然后重启即可解决问题。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+            <tag> 问题记录 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>给Termux中centos系统更换清华源</title>
       <link href="/2020/05/12/%E7%BB%99Termux%E4%B8%ADcentos%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%8D%A2%E6%B8%85%E5%8D%8E%E6%BA%90/"/>
       <url>/2020/05/12/%E7%BB%99Termux%E4%B8%ADcentos%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%8D%A2%E6%B8%85%E5%8D%8E%E6%BA%90/</url>
